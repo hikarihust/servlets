@@ -1,0 +1,9 @@
+                                    Getting Started with JSP
+
+Setting Up the Development Environment Overview
+    Must Have Java Development Kit (JDK)
+    We Must Have the Java Development Kit (JDK) Installed
+        -> Visit Oracle’s website to download and install JDK not the JRE
+    To Build JSP Applications, we need the following:
+        1. Java Application Server -> Tomcat Server
+        2. Java Integrated Development Environment (IDE) -> Eclipse
