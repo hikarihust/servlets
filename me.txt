@@ -161,4 +161,5 @@ JSTL Core Tags - Looping with forEach - Overview
     forEach tag: Iterates over a collection of values
     forTokens tag: Iterates over a collection of tokens
     out tag: Used in scriptlets to display output, similar to <%= … %
+JSTL Core Tags - Looping with forEach - Write some Code
     
