@@ -112,4 +112,10 @@ Tracking user actions with Sessions - Overview
     getId() : String Returns the session id
     invalidate() : void Invalidates this session and unbinds any object associated with it
     setMaxInactiveInterval(long mills) : void Sets the idle time for a session to expire. The value is supplied in milliseconds
+Tracking user actions with Sessions - Write some Code
+    List<String> items = (List<String>) session.getAttribute("myToDoList");
+    items.add(theItem);
+    Since we're using object references, remember that "items" is a variable that holds a reference to an object. Then 
+    it points to the same area of memory that is used by the session. So in effect, the users's session has now been updated with 
+    this new entry.
     
