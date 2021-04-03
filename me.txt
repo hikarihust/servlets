@@ -232,4 +232,12 @@ Multi-Lingual / Internationalization Messages
             https://en.wikipedia.org/wiki/ISO_3166-2
     Step 2: Create JSP Page with labels
     Step 3: Update JSP page to change locale based on user selection
+Build a Multi-Lingual App with JSTL - Step 1
+    Create i18n.resources package
+        solution-jsp-jstl-multi-lingual-app->src.com.luv2code.jsp.tagdemo -> New -> Package: i18n.resources
+    Create file in i18n.resources package
+        src.com.luv2code.jsp.tagdemo.i18n.resources -> New -> Other -> General -> File
+            mylabels.properties
+            mylabels_es_ES.properties
+            mylabels_de_DE.properties
     
