@@ -289,4 +289,11 @@ Comparing Servlets and JSP - What's the Difference
             Servlet does the business logic
             JSP handles the presentation view
         Model-View-Controller (MVC) Design Pattern
+Reading HTML Form Data with Servlets - Let's Write some Code
+    servletdemo/src/main/webapp -> New -> File -> create student-form.html
+    Create a new servlet
+        Right click on com.luv2code.servletdemo -> New -> Servlet
+            -> Class name: StudentServlet
+    Build to run web:
+        student-form.html -> Run as -> Run on server
     
