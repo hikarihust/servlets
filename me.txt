@@ -251,3 +251,13 @@ Build a Multi-Lingual App with JSTL - Step 3
             so can read all properties based on the appropriate locale that user selected
         <fmt:setBundle basename="com.luv2code.jsp.tagdemo.i18n.resources.mylabels" />
     
+    ==================================================================================================================
+
+                        Servlet Fundamentals
+    
+Hello World Servlet - Overview
+    Java class that is processed on the server
+    Java class generates HTML that is returned to browser
+    Can read HTML form data, use cookies and sessions etc…
+    At a high-level, similar functionality to JSPs
+    
