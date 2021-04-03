@@ -296,4 +296,8 @@ Reading HTML Form Data with Servlets - Let's Write some Code
             -> Class name: StudentServlet
     Build to run web:
         student-form.html -> Run as -> Run on server
+Reading Servlet Parameters - Overview
+    Servlet Configuration Parameters
+        Our web app can make use of configuration parameters
+        Located in standard file: WEB-INF/web.xml
     
