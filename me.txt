@@ -238,7 +238,16 @@ Build a Multi-Lingual App with JSTL - Step 1
     Create file in i18n.resources package
         src.com.luv2code.jsp.tagdemo.i18n.resources -> New -> Other -> General -> File
             mylabels.properties
+                Default resource file, there no reference to a specific locale.
+                Basically the file will be used if we do nor have a locale file for a given language
             mylabels_es_ES.properties
             mylabels_de_DE.properties
 Build a Multi-Lingual App with JSTL - Step 2
+Build a Multi-Lingual App with JSTL - Step 3
+    fmt:setBundle
+        Tell JSP page which resource bundle to use
+        basename: tell the base name of the file and then JSP will append the appropriate locale
+            mylabels_<theLocale>.properties
+            so can read all properties based on the appropriate locale that user selected
+        <fmt:setBundle basename="com.luv2code.jsp.tagdemo.i18n.resources.mylabels" />
     
