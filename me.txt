@@ -336,4 +336,15 @@ MVC with Servlets and JSP - Overview
         Servlet can add data to request object
     JSP page to view data
         JSP use JSTL to access data
+MVC with Servlets and JSP - Let's Write some Code
+    Add JSTL support to servletdemo project
+        servletdemo/src/main/webapp/WEB-INF/lib
+            javax.servlet.jsp.jstl-1.2.1.jar
+            javax.servlet.jsp.jstl-api-1.2.1.jar
+    Create Controller Servlet
+        Right click on com.luv2code.servletdemo -> New -> Servlet
+            -> Class name: MvcDemoServlet
+    Build to run:
+        Right click on MvcDemoServlet.java -> Run as -> Run on server
+    Browser: http://localhost:8080/servletdemo/MvcDemoServlet
     
