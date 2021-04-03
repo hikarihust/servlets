@@ -69,6 +69,8 @@ JSP Hello World
         Must have .jsp extension
     File -> New -> Dynamic Web Project
     webapp -> New -> File -> create helloworld.jsp
+    Build to run:
+        Right click on helloworld.jsp -> Run as -> Run on server
     The server canot be started because one or more of the ports are invalid
         Servers -> server.xml -> Server -> port -> change -1 to 8081
     http://localhost:8080/jspdemo/helloworld.jsp
@@ -212,4 +214,22 @@ Multi-Lingual / Internationalization Overview
         [first_name]: John
         [last_name]: Doe
         [welcome_message]
+Multi-Lingual / Internationalization Messages
+    Step 1: Create Resource Files
+        Translated versions of our labels
+        We will need to use Google Translate or similar translator service
+        Must name the file using the locale
+        Locale = Language Code + Country Code
+        File name must follow specific format
+            <our project file name>_LANGUAGECODE_COUNTRYCODE.properties
+        Examples:   
+            mylabels_es_ES.properties
+            mylabels_de_DE.properties
+            mylabels_en_GB.properties
+        Language Codes based on ISO Standard 639-1 (2 letter code)
+            https://en.wikipedia.org/wiki/ISO_639-1
+        Country Codes based on ISO Standard 3166-2 (2 letter code)
+            https://en.wikipedia.org/wiki/ISO_3166-2
+    Step 2: Create JSP Page with labels
+    Step 3: Update JSP page to change locale based on user selection
     
