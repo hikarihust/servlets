@@ -240,4 +240,5 @@ Build a Multi-Lingual App with JSTL - Step 1
             mylabels.properties
             mylabels_es_ES.properties
             mylabels_de_DE.properties
+Build a Multi-Lingual App with JSTL - Step 2
     
