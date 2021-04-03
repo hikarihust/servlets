@@ -380,4 +380,12 @@ Road map
     Add a new Student
     Update a new Student
     Delete a new Student
+Setting up our Project Database with Sample Data
+    Create a new MySQL user for our app
+    01-create-user.sql
+        user id: webstudent
+        password: webstudent
+    02-student-tracker.sql
+        Create a new database table: student
+        Load table with sample data
     
