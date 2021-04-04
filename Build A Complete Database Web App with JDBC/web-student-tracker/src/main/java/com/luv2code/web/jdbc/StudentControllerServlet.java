@@ -75,6 +75,53 @@ public class StudentControllerServlet extends HttpServlet {
 		}
 		
 	}
+	
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try {
+			// read the "command" parameter
+			String theCommand = request.getParameter("command");
+
+			// if the command is missing, then default to listing students
+			if (theCommand == null) {
+				theCommand = "UPDATE";
+			}
+
+			// route to the appropriate method
+			switch (theCommand) {
+			
+			case "UPDATE":
+				updateStudent(request, response);
+				break;
+				
+			default:
+				updateStudent(request, response);
+			}
+		}
+		catch (Exception exc) {
+			throw new ServletException(exc);
+		}
+	}
+
+	private void updateStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		// read student info from form data
+		int id = Integer.parseInt(request.getParameter("studentId"));
+		String firstName = request.getParameter("firstName");
+		String lastName = request.getParameter("lastName");
+		String email = request.getParameter("email");
+		
+		// create a new student object
+		Student theStudent = new Student(id, firstName, lastName, email);
+		
+		// perform update on database
+		studentDbUtil.updateStudent(theStudent);
+		
+		// send them back to the "list students" page
+		listStudents(request, response);
+		
+	}
 
 	private void loadStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		// read student id from form data
