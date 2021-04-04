@@ -59,3 +59,17 @@
 0:0:0:0:0:0:0:1 - - [03/Apr/2021:15:41:25 +0900] "GET /tagdemo/i18n-messages-test.jsp HTTP/1.1" 200 436
 127.0.0.1 - - [03/Apr/2021:15:42:24 +0900] "GET /tagdemo/i18n-messages-test.jsp HTTP/1.1" 200 439
 127.0.0.1 - - [03/Apr/2021:15:42:28 +0900] "GET /tagdemo/i18n-messages-test.jsp HTTP/1.1" 200 439
+127.0.0.1 - - [03/Apr/2021:16:58:36 +0900] "GET / HTTP/1.1" 404 901
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:16:58:37 +0900] "GET /servletdemo/HelloWorldServlet HTTP/1.1" 200 111
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:17:00:14 +0900] "GET /servletdemo/HelloWorldServlet HTTP/1.1" 200 111
+127.0.0.1 - - [03/Apr/2021:17:50:24 +0900] "GET / HTTP/1.1" 404 901
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:17:50:25 +0900] "GET /servletdemo/student-form.html HTTP/1.1" 200 282
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:17:50:33 +0900] "GET /servletdemo/student-form.html HTTP/1.1" 200 282
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:17:50:38 +0900] "GET /servletdemo/StudentServlet?firstName=vu&lastName=quang HTTP/1.1" 200 66
+127.0.0.1 - - [03/Apr/2021:18:19:42 +0900] "GET / HTTP/1.1" 404 901
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:18:19:42 +0900] "GET /servletdemo/TestParamServlet HTTP/1.1" 200 85
+192.168.128.103 - - [03/Apr/2021:21:38:39 +0900] "GET / HTTP/1.1" 404 901
+192.168.128.103 - - [03/Apr/2021:21:38:46 +0900] "GET /HNAP1/ HTTP/1.1" 404 911
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:21:38:50 +0900] "GET /servletdemo/StudentServlet?firstName=vu&lastName=quang HTTP/1.1" 200 66
+127.0.0.1 - - [03/Apr/2021:23:13:43 +0900] "GET / HTTP/1.1" 404 901
+0:0:0:0:0:0:0:1 - - [03/Apr/2021:23:13:46 +0900] "GET /servletdemo/MvcDemoServlet HTTP/1.1" 200 141

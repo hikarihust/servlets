@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:21:14 +0900] "GET /web-student-tracker/ HTTP/1.1" 200 3959
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:21:14 +0900] "GET /web-student-tracker/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:21:21 +0900] "POST /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 3959
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:21:21 +0900] "GET /web-student-tracker/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:21:28 +0900] "GET /web-student-tracker/StudentControllerServlet?command=DELETE&studentId=6 HTTP/1.1" 200 3959
+127.0.0.1 - - [05/Apr/2021:00:40:55 +0900] "GET / HTTP/1.1" 404 901
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:40:57 +0900] "GET /web-student-tracker/ HTTP/1.1" 200 3959
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:41:01 +0900] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 3959
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:41:06 +0900] "GET /web-student-tracker/StudentControllerServlet?command=DELETE&studentId=6 HTTP/1.1" 200 3424
+0:0:0:0:0:0:0:1 - - [05/Apr/2021:00:44:43 +0900] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 3424
