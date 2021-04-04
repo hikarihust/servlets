@@ -406,4 +406,17 @@ Setup Tomcat Datasource for Connection Pooling
         Leverage resource injection with the Servlets
         This means that Tomcat will AUTOMAGICALLY
             Set the connection pool / datasource on our servlet
+Test Tomcat Connection Pooling
+    File -> New -> Dynamic Web Project -> create Project: web-student-tracker
+    Copy JDBC jar file to "web-student-tracker/src/main/webapp/WEB-INF/lib"
+        https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.13.zip
+        mysql-connector-java-8.0.13.jar -> web-student-tracker/src/main/webapp/WEB-INF/lib
+    context.xml -> web-student-tracker/src/main/webapp/META-INF
+    Create new package in "src/main/java"
+        New -> Package -> com.luv2code.web.jdbc
+    com.luv2code.web.jdbc -> New -> Servlet -> TestServlet
+        uncheck: Constructor from superclass, doPost   
+    SELECT * FROM mysql.user;
+    Build to run:
+        Right click on com.luv2code.web.jdbc/TestServlet.java -> Run as -> Run on server
     

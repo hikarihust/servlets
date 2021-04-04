@@ -12,4 +12,6 @@ GRANT ALL PRIVILEGES ON * . * TO 'webstudent'@'localhost';
 # See the MySQL Reference Manual for details: 
 # https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html
 #
-ALTER USER 'webstudent'@'localhost' IDENTIFIED WITH mysql_native_password BY 'webstudent';
+#ALTER USER 'webstudent'@'localhost' IDENTIFIED WITH mysql_native_password BY 'webstudent';
+
+#SET PASSWORD FOR 'webstudent'@'localhost' = PASSWORD('webstudent');
